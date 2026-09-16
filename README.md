@@ -1,9 +1,15 @@
-# Hi, I'm Jadiouo 👋
+# 何皓廷 · Hao-Ting (Lex) Ho
 
-我做機器人：從嵌入式感測器、控制律、路徑規劃到多機器人群體行為，喜歡把每個演算法自己寫一遍、放進模擬器裡量給自己看。  
-Robotics student building things end to end — sensors and embedded firmware, control and planning, multi-robot swarms — and writing the algorithms myself so I know where they break.
+東海大學電機工程學系，2027 年 5 月畢業。做機器人：狀態估計與感測器融合最深，控制從國中開始，ROS 2 與嵌入式做到實機，現在把力氣放在多機器人。每個演算法自己寫一遍、放進模擬器裡量給自己看。  
+Robotics student, Tunghai University (EE, class of 2027). Deepest in state estimation and sensor fusion, control since junior high, ROS 2 and embedded down to real hardware; now working on multi-robot systems. I write the algorithms myself so I know where they break.
 
 🔗 **[jadiouo.github.io](https://jadiouo.github.io)** — 專案總覽 / project index
+
+## Now
+
+- **TartanIMU Challenge**（CMU AirLab, IROS 2026 workshop）：單一模型跨 car / drone / quadruped / handheld 四種平台的 IMU 估計
+- **感知劣化環境下的多機器人主動探索**（environment-active multi-robot exploration）：大學專題，寫成 letter 投 IEEE RA-L
+- 一篇關於 **sensor-only 加速度計偏差估計之測量效度**的論文，投稿 IEEE Transactions on Instrumentation and Measurement（審稿中）
 
 ## Featured
 
@@ -16,22 +22,13 @@ Robotics student building things end to end — sensors and embedded firmware, c
 | **[linear-algebra-lab](https://github.com/Jadiouo/linear-algebra-lab)** | 從向量空間公理到 AI：八個互動專案，核心演算法全部手刻，純 Vanilla JS + Canvas，588 個單元測試。[線上版](https://jadiouo.github.io/linear-algebra-lab/) |
 | **[bayesian-inference-portfolio](https://github.com/Jadiouo/bayesian-inference-portfolio)** | 一條式子 p(θ\|D) ∝ p(D\|θ)·p(θ)，五個領域、十個完整專案：把不確定性量化成可執行的決策。 |
 | **[voicetype](https://github.com/Jadiouo/voicetype)** | Fcitx5 語音聽寫模組（Rust）：按住熱鍵說話、放開後文字出現在游標處，SenseVoice 全本機推論，0 VRAM。 |
-
-<!-- 轉公開後打開：
 | **[path-planning-and-tracking](https://github.com/Jadiouo/path-planning-and-tracking)** | A*/RRT* 規劃與 Pure Pursuit / Stanley / LQR 追蹤，自己的運動學模擬器與 benchmark，速度包絡前瞻煞車消融實驗。 |
 | **[inverted-pendulum-control](https://github.com/Jadiouo/inverted-pendulum-control)** | 倒單擺：極點配置 vs LQR 放在同一個非線性模型上比，致動器飽和下的回正範圍。 |
 | **[startup-trends-rag](https://github.com/Jadiouo/startup-trends-rag)** | pgvector + 本地 embedding + 任何 LLM 的個人 RAG，帶引用的回答，蒸餾成 agent 可載入的 skill.md。 |
 | **[gtd-cli](https://github.com/Jadiouo/gtd-cli)** | 終端機裡的 Getting Things Done：inbox、情境、下一步行動、每週回顧、undo。 |
--->
 
 ## Toolbox
 
 `ROS 2 (Jazzy)` `Gazebo` `Webots` `Python / NumPy / PyTorch` `Rust` `C++ / Arduino / ESP32` `OpenCV` `PostgreSQL + pgvector`
-
-## Now
-
-- 太空機器人：把地面上的無人機群體實驗當成軌道近距離操作（RPO）的試驗台
-- Crazyflie 真機：把群體控制從模擬搬到實體無人機
-- 一直在寫的小工具：讓自己的工作流程更快的 CLI
 
 <sub>Traditional Chinese first, English where it helps. Everything here is MIT unless a repo says otherwise.</sub>
