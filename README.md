@@ -22,7 +22,6 @@ Robotics student, Tunghai University (EE, class of 2027). Deepest in state estim
 | **[linear-algebra-lab](https://github.com/Jadiouo/linear-algebra-lab)** | 從向量空間公理到 AI：八個互動專案，核心演算法全部手刻，純 Vanilla JS + Canvas，588 個單元測試。[線上版](https://jadiouo.github.io/linear-algebra-lab/) |
 | **[bayesian-inference-portfolio](https://github.com/Jadiouo/bayesian-inference-portfolio)** | 一條式子 p(θ\|D) ∝ p(D\|θ)·p(θ)，五個領域、十個完整專案：把不確定性量化成可執行的決策。 |
 | **[voicetype](https://github.com/Jadiouo/voicetype)** | Fcitx5 語音聽寫模組（Rust）：按住熱鍵說話、放開後文字出現在游標處，SenseVoice 全本機推論，0 VRAM。 |
-| **[grid-path-planning](https://github.com/Jadiouo/grid-path-planning)** | Occupancy grid 上的 A\* 與 RRT\*（rewire 時傳播子樹成本），純 NumPy，同一張地圖上的對照與測試。 |
 | **[inverted-pendulum-control](https://github.com/Jadiouo/inverted-pendulum-control)** | 倒單擺：極點配置 vs LQR 放在同一個非線性模型上比，致動器飽和下的回正範圍。 |
 | **[startup-trends-rag](https://github.com/Jadiouo/startup-trends-rag)** | pgvector + 本地 embedding + 任何 LLM 的個人 RAG，帶引用的回答，蒸餾成 agent 可載入的 skill.md。 |
 | **[gtd-cli](https://github.com/Jadiouo/gtd-cli)** | 終端機裡的 Getting Things Done：inbox、情境、下一步行動、每週回顧、undo。 |
