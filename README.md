@@ -7,7 +7,7 @@ Robotics student, Tunghai University (EE, class of 2027). Deepest in state estim
 
 ## Now
 
-- **TartanIMU Challenge**（CMU AirLab, IROS 2026 workshop）：單一模型跨 car / drone / quadruped / handheld 四種平台的 IMU 估計
+- **[TartanIMU Challenge](https://github.com/Jadiouo/tartanimu-unified-io)**（CMU AirLab, IROS 2026 workshop, Kaggle）：單一模型、單一權重跨 car / drone / quadruped / handheld 四種平台的 IMU 速度估計——官方全測試 **TartanIMU Score 0.25878**，13 天獨自完成；模型、評估尺、雲端自動化、技術報告與完整編年史都在 repo 裡
 - **感知劣化環境下的多機器人主動探索**（environment-active multi-robot exploration）：大學專題，寫成 letter 投 IEEE RA-L
 - 一篇關於 **sensor-only 加速度計偏差估計之測量效度**的論文，投稿 IEEE Transactions on Instrumentation and Measurement（審稿中）
 
@@ -15,6 +15,7 @@ Robotics student, Tunghai University (EE, class of 2027). Deepest in state estim
 
 | | |
 |---|---|
+| **[tartanimu-unified-io](https://github.com/Jadiouo/tartanimu-unified-io)** | **IROS 2026 TartanIMU Challenge**：raw 6 軸 IMU → body-frame 速度，一個網路四種機器人。Learned-INS 通道（校準網 + 姿態網）+ 增益遞推頭 + 阻力一致的增強；官方 0.25878。三把尺量三個母體、22 張消融的負結果、[技術報告](https://github.com/Jadiouo/tartanimu-unified-io/blob/main/report/technical_report.pdf)、[HF 權重](https://huggingface.co/LexHo/tartanimu-a3v20)。 |
 | **[gz-drone-swarm-pursuit](https://github.com/Jadiouo/gz-drone-swarm-pursuit)** | 3D drone-swarm cooperative pursuit in Gazebo Harmonic + ROS 2 Jazzy. Free-flying microgravity dynamics, so it doubles as a ground testbed for spacecraft rendezvous & proximity operations. |
 | **[boids-swarm-pursuit](https://github.com/Jadiouo/boids-swarm-pursuit)** | ROS 2 多機器人群體智慧：分散式、局部感知的 boids 合作圍捕 2× 速度的目標——群聚、追捕策略階梯、感測模型、資訊分享、自適應目標。 |
 | **[pixels-to-pose](https://github.com/Jadiouo/pixels-to-pose)** | ArUco 偵測 + 6-DoF 位姿估計，合成資料、驗證優先；為 JAXA Kibo-RPC（國際太空站機器人挑戰賽）的視覺模組而做。 |
