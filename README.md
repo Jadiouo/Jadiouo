@@ -7,7 +7,7 @@ Robotics student, Tunghai University (EE, class of 2027). Deepest in state estim
 
 ## Now
 
-- **[TartanIMU Challenge](https://github.com/Jadiouo/tartanimu-unified-io)**（CMU AirLab, IROS 2026 workshop, Kaggle）：單一模型、單一權重跨 car / drone / quadruped / handheld 四種平台的 IMU 速度估計——**131 隊中第 20 名**，官方全測試 TartanIMU Score 0.25878，13 天獨自完成；模型、評估尺、雲端自動化、技術報告與完整編年史都在 repo 裡
+- **[TartanIMU Challenge](https://github.com/Jadiouo/tartanimu-unified-io)**（CMU AirLab, IROS 2026 workshop, Kaggle）：單一模型、單一權重跨 car / drone / quadruped / handheld 四種平台的 IMU 速度估計——**131 隊中第 20 名**，官方全測試 TartanIMU Score 0.25878，13 天獨自完成；模型、評估尺、雲端自動化、技術報告與完整編年史都在 [repo](https://github.com/Jadiouo/tartanimu-unified-io) 裡，權重與可重現的推論包在 [🤗 HF](https://huggingface.co/LexHo/tartanimu-a3v20)
 - **感知劣化環境下的多機器人主動探索**（environment-active multi-robot exploration）：大學專題，寫成 letter 投 IEEE RA-L
 - 一篇關於 **sensor-only 加速度計偏差估計之測量效度**的論文，投稿 IEEE Transactions on Instrumentation and Measurement（審稿中）
 
